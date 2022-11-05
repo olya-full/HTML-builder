@@ -9,4 +9,3 @@ let data = "";
 currentStream.on("data", (chunk) => {data += chunk});
 currentStream.on("end", () => {stdout.write(data)});
 
-
